@@ -282,8 +282,8 @@
 	</div>	
 </section>
 <div style="text-align:center;">
-<p>来源:<a href="http://www.mycodes.net/" target="_blank">源码之家</a></p>
-</div>
+<p></p>
+</ div>
 </body>
 <script type="text/javascript" src="js/main.js"></script>
 </html>
