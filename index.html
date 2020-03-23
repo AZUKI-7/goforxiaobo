@@ -145,7 +145,6 @@
         listen(["mousedown", "touchstart"], function (e) {
             e.preventDefault();
             isMouseDown = true;
-            setTimeout(function(){"alert('出出出出彩')",1500})
         });
         listen(["mousemove", "touchmove"], function (e) {
             e.preventDefault();
@@ -284,7 +283,9 @@
 
         // if (time < 800)
         requestAnimationFrame(render);
-    }
+        
+        
+        function(time){if(time>1500){alert('出出出出彩')}}
 
     var vertexShader = [
     "varying vec2 vUv;",
