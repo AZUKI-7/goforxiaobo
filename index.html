@@ -145,6 +145,7 @@
         listen(["mousedown", "touchstart"], function (e) {
             e.preventDefault();
             isMouseDown = true;
+            setIimeout(function(){"alert('出出出出彩')",1500})
         });
         listen(["mousemove", "touchmove"], function (e) {
             e.preventDefault();
